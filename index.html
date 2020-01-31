@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coding to the Beat</title>
+  <script src="https://kit.fontawesome.com/394928f1d6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <script src="sketch.js"></script>
+  <!-- Icon Bar (Sidebar - hidden on small screens) -->
+  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center w3-black">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-grey">
+      <i class="fas fa-home w3-xxlarge"></i>
+      <p>HOME</p>
+    </a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-grey">
+      <i class="fas fa-user w3-xxlarge"></i>
+      <p>ABOUT</p>
+    </a>
+    <a href="#modules" class="w3-bar-item w3-button w3-padding-large w3-hover-grey">
+      <i class="fas fa-laptop-code w3-xxlarge"></i>
+      <p>MODULES</p>
+    </a>
+    <a href="#interview" class="w3-bar-item w3-button w3-padding-large w3-hover-grey">
+      <i class="fas fa-file-alt w3-xxlarge"></i>
+      <p>INTERVIEW</p>
+    </a>
+    <a href="#sketches" class="w3-bar-item w3-button w3-padding-large w3-hover-grey">
+      <i class="fab fa-js-square w3-xxlarge"></i>
+      <p>SKETCHES</p>
+    </a>
+  </nav>
+
+  <!-- Navbar on small screens (Hidden on medium and large screens) -->
+  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+      <a href="#" class="w3-bar-item w3-button" style="width:20% !important">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button" style="width:20% !important">ABOUT</a>
+      <a href="#photos" class="w3-bar-item w3-button" style="width:20% !important">MODULES</a>
+      <a href="#interview" class="w3-bar-item w3-button" style="width:20% !important">INTERVIEW</a>
+      <a href="#contact" class="w3-bar-item w3-button" style="width:20% !important">SKETCHES</a>
+    </div>
+  </div>
+
+  <!-- Page Content -->
+  <div class="w3-padding-large" id="main">
+    <!-- Header/Home -->
+    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+      <h1 class="w3-jumbo">Jackson McAfee</h1>
+      <p>Musician and Web Designer.</p>
+
+      <img src="https://wallpaperset.com/w/full/7/2/b/110782.jpg" width="60%">
+    </header>
+
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-white w3-padding-64 w3-large" id="about">
+      <h2>About Me</h2>
+      <hr style="width:200px" class="w3-opacity">
+      <p>
+        I'm 17 years old, I live in Ottawa, Canada, and I'm in grade 12 at AY Jackson McAfee Secondary School.
+        I'm so passionate for music and drumming that I listen to music almost everyday.
+        I started to take drum lessons in 2012 (I think), though I still have quite a bit to improve on.
+        I started producing music using a DAW (Digital Audio Workstation) in the summer of 2019; the music wasn't very sophisticated, but it was still very catchy.
+        Ever since I started to produce music, I have been slowly improving and learning the ways in which hit songs are thought of and designed.
+        The second semester of grade 11 was when I was introduced to computer science, and I immediately knew it was something I was good at, and I enjoyed almost as much as music.
+        I especially love trying to figure out the math that is involved with programming certain drawings and animations.
+        After high school is all done, I plan to go into something to do with music producing and or into physics.
+        Physics is easily my first choice for a career path because I love learning about how our universe works and all the things that we still don't have answers for.
+        My second choice for a career path is music performance or music production, and my third or backup choice is computer science.
+      </p>
+      <h3 class="w3-padding-16">My Skills</h3>
+      <p class="w3-wide">Drumming</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:50%"></div>
+      </div>
+      <p class="w3-wide">Music Production</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:20%"></div>
+      </div>
+      <p class="w3-wide">Website Designing</p>
+      <div class="w3-white">
+        <div class="w3-dark-grey" style="height:28px;width:30%"></div>
+      </div><br>
+
+      <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+        <div class="w3-third w3-section">
+          <span class="w3-xlarge">5</span><br>
+          Concert Bands Been In
+        </div>
+        <div class="w3-third w3-section">
+          <span class="w3-xlarge">10</span><br>
+          Loops / Short Songs
+        </div>
+        <div class="w3-third w3-section">
+          <span class="w3-xlarge">6</span><br>
+          JS Sketches / Websites
+        </div>
+      </div>
+      <!-- End About Section -->
+    </div>
+
+    <!-- Com-Sci Module Section -->
+    <div class="w3-padding-64 w3-content w3-text-white w3-large" id="modules">
+      <h2>Top 10 Khan Academy Com-Sci Modules</h2>
+      <hr style="width:200px" class="w3-opacity">
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <H3>1. Intro to JS: Drawing & Animation</h3>
+        <img width="20%" src="https://www.w3schools.com/whatis/img_js.png">
+        <p>
+          Intro to JS was my very first introduction to javascript, though there were only a few new concepts in it that I didn't
+          already know about because I had already learned C++ the year before. There were a few minor differences in the syntax
+          of the different functions. This module is of the basics of javascript, hence the name, so I will be using these
+          concepts in almost all of my future programs. The animation aspect of the module impacted me the most because it had
+          the greatest difference from what I had learned prior to completing this module.<br><br>
+        </p>
+        <h3>2. Intro to HTML/CSS: Making Webpages</h3>
+        <img width="40%" src="https://aplusweb.design/wp-content/uploads/2017/11/html5-and-css3.png">
+        <p>
+          Before compleating this module, I had no idea of how websites were coded and what language they are usually coded with.
+          Now that I've completed it, I'm quite surprised of how simple and easy it is to create a webpage. CSS gives you a very
+          readable layout to formatting text in a webpage, and HTML gives you such a simple way to put text onto a webpage. I'm
+          going to be creating many stunning webpages in the future, now that I know how easy the basics are.<br><br>
+        </p>
+        <h3>3. Advanced JS: Natural Simulations</h3>
+        <img width="40%" src="https://cdn.kastatic.org/images/khan-logo-dark-background.new.png">
+        <p>
+          I espiecially love challenging myself, and this module did just that at the time. The procedure of figuring out how to
+          simulate certain things that we might see around us, will be very useful to me in the future when I program more
+          complicated things. Being taught how to code vectors, forces, and angular movement significantly widened what my future
+          ideas will be.<br><br>
+        </p>
+        <h3>4. Algorithms</h3>
+        <img width="25%" src="https://cdn.kastatic.org/ka-perseus-images/dfd834ca82cc24414aec63f2c86dc9690b19d840.jpg">
+        <p>
+          Coming up with algorithms for different things is an essential skill for becoming a master programmer. It's not only
+          challenging, it's also quite fun for me to figure out the right algorithms, but to be able to do that, you have to
+          understand algorithms, where they come from, and why some of them are a thing. Sorting arrays is something that seems
+          so simple to us, because we can just use our already knowledgable brains to rearange arrays, but for a computer it
+          needs specific instructions to follow. Though those instructions can be done in many different ways that produce the
+          same result, and that amazes me a little.<br><br>
+        </p>
+        <h3>5. Computers</h3>
+        <img width="40%" src="https://lh4.googleusercontent.com/proxy/CYyrlX8DKOP2ErABkKWKFPegkdGG2hCMCyJcHc8TKRgqMhZgluBeuDP12gcaCJLvckuawXbjCRf4JGV6kJW1pIQc4S-VKvS-ewgX">
+        <p>
+          I had no idea that that was how computers functioned in that much detail. I knew they used logic gates and bits, but
+          not that well. After completing this module, I'm feeling like I need to learn more about how computers work, and
+          maybe I can use this kowledge to go on and make an amazing breakthrough in quantum computing. Without the knowledge of
+          how normal computers work, no one would be able t do much with quantum computing.<br><br>
+        </p>
+        <h3>6. The Internet</h3>
+        <img width="40%" src="https://wallpaperaccess.com/full/1445478.jpg">
+        <p>
+          After I had completed this module, I was thinking to myself just how interesting the internet really is. Not to forget
+          about how easy it is to hack and trick people using the internet as well. Now that I know so much more about
+          cybercrime, I will try to be a lot more secure myself, by using a VPN, and not sharing as much personal data on the
+          internet.<br><br>
+        </p>
+        <h3>7. Advanced JS: Games & Visualizations</h3>
+        <img width="40%" src="https://lh3.googleusercontent.com/4NSrSWDov6eMdq76sm3k45igxlBHywnOljo840bDPuVK7V50x_Rvmk-V8URr9CI4Jw">
+        <p>
+          Many things I learned in this module, I have already used a few times in other programs, such as buttons,
+          transformations, and scenes. In the future, I'm going to be programming many more games, because this module showed
+          me how much fun it is to program games compared to other types of programs. Plus, as a bonus, you get to play and test
+          your games as you program them and when you're done programming them.<br><br>
+        </p>
+        <h3>8. HTML/JS: Making Webpages Interactive</h3>
+        <img width="25%" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/83/e258e0532611e5a5072321239ff4d4/jhep-coursera-course4.png?auto=format%2Ccompress&dpr=1">
+        <p>
+          This module has now opened my doors to a way of editing the aspects of HTML element with JS, using the Document Object
+          Model. I understood everything that was being taught to me in this module, and I could see how many different uses this
+          had. Since I completed this module, I have started to use other libraries that are also used for manipulating the
+          aspects of HTML elements, such as w3.CSS (which I used to make this website).<br><br>
+        </p>
+        <h3>9. HTML/JS: Making Webpages Interactive With JQuery</h3>
+        <img width="40%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Logo_jQuery.svg/512px-Logo_jQuery.svg.png">
+        <p>
+          This was one of the modules that I struggled with completing, because I didn't quite understand why you would use jQuery
+          when you could just use the standard DOM library. Though, it did expand my horizons on what I knew was out on the
+          internet that could be used to do the same sort of things. It just came down to preference and what feature the
+          programmer was trying to code, that determines which libraries are used.<br><br>
+        </p>
+        <h3>10. Microbit: Motion Sensor/Compass</h3>
+        <img width="30%" src="https://www.microbit.org/images/microbit-front.png">
+        <p>
+          This not a module on Khan Academy, but a proect that I had to do in the course that I'm taking right now, SCI4U. It has
+          to do with a piece of electronics, called the Microbit. The Microbit has many different features, but my group of three
+          had to focus on the motion sensor and the compass of the microbit. We had to show off that specifi feature to the class
+          by coding it to output an arrow pointing in the specific direction that is was facing on to the LCD screen. This
+          project showed me that it was not only possible to code software and webpages, but also hardware and robots, which was
+          so much more rewarding. I will definitely be doing more with robots and such in the future, as I continue to think
+          about what the world would be like with AI.
+        </p>
+      </div>
+      <!-- End Com-Sci Module Section -->
+    </div>
+
+    <div class="w3-content w3-justify w3-text-white w3-padding-64 w3-large" id="interview">
+      <h2>Exam Interview Answers</h2>
+      <hr style="width:200px" class="w3-opacity">
+      <h3>5. What does it mean to have good programming practices?</h3>
+      <p>
+        Good programming practices are essential to being a good collaborator and team person, they help the workflow of the team
+        run smoothly and with harmony. The main programming practice that most of the smaller ones fall under, would be to write
+        readable code, even someone who isn’t that experienced in computer science should be able to read and understand your
+        code. Some more specific practices related to readable code are: documenting your code so it’s easier for someone to
+        understand what specific lines are doing, being consistent with indentation and naming schemes, grouping code, etc.
+        Having good programming practices can also help a lot with getting a computer programming job, and help you keep it, by
+        letting yourself appear as a very good team player.<br><br>
+        Having good programming practices also involves the planning stages in designing a software or website. Writing
+        pseudocode, and even before that, having a concrete idea of what you want the final result to be. Pseudocode should allow
+        you to follow a plan and to complete the basis of the software or website before getting lost in the extra and not so
+        necessary details and functions. Good programming practices not just helps the people working with you, but also improves
+        your own workflow significantly.<br><br>
+      </p>
+      <h3>6. Summarize your experience with khan academy.</h3>
+      <p>
+        My experience with Khan academy was pretty fun and educational most of the time. I learnt a lot about programming,
+        computer science, and even how the internet worked from the smallest parts of computer to how all the computers across
+        the earth can communicate with each other. I learned things about how the internet worked that I had no idea that that
+        was how it all came together in the end. Though there were some challenges and projects that I didn’t enjoy or weren’t
+        recognizing that the code was working but it wasn’t the exact code that the challenge wanted you to type. Even though
+        this course is over, I am most definitely going to be continuing to watch the lessons, complete the challenges, and
+        accomplish the projects.<br><br>
+      </p>
+      <h3>10. How can art help guide you through learning about programming and computer science?</h3>
+      <p>
+        Without art and creativity, what would the web be? A place with only plain and boring websites with facts and news, but
+        nothing with games or interesting visuals. Art is one of the most important things when it comes to thinking up ideas for
+        almost all types of programs. When you have an idea for a software or a website that you want to become a reality, you
+        may need to research things that you haven’t learnt yet. It could be a specific piece of code or a whole area of
+        computer science that you didn’t even know about before. Having these ideas and being creative, forces you to learn new
+        things and expand your horizons of what you are capable of, that in the long term, can really benefit your career and
+        happiness.
+      </p>
+    </div>
+
+    <!-- JS Sketch Section -->
+    <div class="w3-padding-64 w3-content w3-text-white w3-xlarge" id="sketches">
+      <h2>JS Sketches</h2>
+      <hr style="width:200px" class="w3-opacity">
+
+      <div class="w3-large">
+        <div class="w3-dropdown-click">
+          <button onclick="roseDropdown()" class="w3-btn w3-block w3-white">Roses</button>
+          <div id="rose" class="w3-dropdown-content w3-bar-block w3-transparent w3-text-white">
+            My Grade 12 Computer Science Summative Refactor of Dan Shiffman's<br>Mathematical Rose Patterns: (This lags the page when you click the<br>next set button or you resize the window)
+            <embed src="https://jacksonminecraft.github.io/Colour-Gradient-Mathematical-Rose-Patterns/" width="640px" height="308px">
+          </div>
+        </div>
+
+        <div class="w3-dropdown-click">
+          <button onclick="clockDropdown()" class="w3-btn w3-block w3-white">Clock</button>
+          <div id="clock" class="w3-dropdown-content w3-bar-block w3-transparent w3-text-white">
+            My first small refactor of one of Dan's Coding Challenges:<br>(Also to let you know how long you've been looking at this webpage)
+            <embed src="https://jacksonminecraft.github.io/Clock-Refactor/" width="640px" height="308px">
+          </div>
+        </div>
+
+          <div class="w3-dropdown-click">
+            <button onclick="metaballDropdown()" class="w3-btn w3-block w3-white">Metaballs</button>
+            <div id="metaball" class="w3-dropdown-content w3-bar-block w3-transparent w3-text-white">
+              My second small refactor of one of Dan's Coding Challenges:<br>(Press enter to respawn the metaballs)<br>
+              <embed src="https://jacksonminecraft.github.io/Metaball-Refactor/" width="640px" height="308px">
+            </div>
+          </div>
+      </div>
+      <!-- End JS Sketch Section -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+      <br><br><br><br><br><br><br><br>
+      <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+      <!-- End footer -->
+    </footer>
+
+    <!-- END PAGE CONTENT -->
+  </div>
+
+</body>
+</html>
